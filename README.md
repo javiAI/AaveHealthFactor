@@ -13,7 +13,7 @@ ALCHEMY_URL: "https://eth-mainnet.alchemyapi.io/v2/ < YOUR ALCHEMY KEY >"
 
 BLOCK_NUMBER: The block at which you want to check the health factor.
   
-CONTRACT_ADDRESS: The address to which you want to check the health factor => "0x..."
+CONTRACT_ADDRESS: The address from which you want to check the health factor => "0x..."
 
   NOTE: Infura does not keep track of block snapshots and therefore does not allow for forks, use Alchemy or other provider instead.
 
