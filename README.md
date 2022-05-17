@@ -31,8 +31,7 @@ cd AaveHealthFactor
 npm install
 ```
 
-Modify the ".env_example" and set your ALCHEMY_URL, BLOCK_NUMBER and USER_ADDRESS variables. Change the name of the file to ".env".
-Run the node.
+Modify the ".env_example" and set your ALCHEMY_URL, BLOCK_NUMBER and USER_ADDRESS variables. Change the name of the file to ".env" and run the node.
 
 ```
 npx hardhat node
