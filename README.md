@@ -9,7 +9,7 @@ This solution forks the Ethereum blockchain at the given block number and calls 
 
 CONTRACT_ADDRESS: The Aave LendingPool contract address => "0x7d2768de32b0b80b7a3454c06bdac94a69ddc7a9". 
 
-ALCHEMY_URL: "https://eth-mainnet.alchemyapi.io/v2/ <YOUR ALCHEMY KEY>" \\
+ALCHEMY_URL: "https://eth-mainnet.alchemyapi.io/v2/ <YOUR ALCHEMY KEY>" 
 NOTE: Infura does not keep track of block snapshots and therefore does not allow for forks, use Alchemy or other provider instead.
 
 BLOCK_NUMBER: The block at which you want to check the health factor.
