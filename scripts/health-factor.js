@@ -19,7 +19,7 @@ const blockNumber = provider.getBlockNumber().then((blockNumber) => {
     console.log('Block number:    ' + blockNumber);
 
     // User Information
-    aaveContract.getUserAccountData(userAddress).then((userAccountData) => {
+    contract.getUserAccountData(userAddress).then((userAccountData) => {
         const healthFactorHex = userAccountData.healthFactor._hex;
         // 1.157920892373162e77 -> '0xff..ff' (max. value)
         if (parseInt(healthFactorHex, 16) >= 1.157920892373162e77) {
