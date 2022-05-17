@@ -37,7 +37,7 @@ Modify the ".env_example" and set your ALCHEMY_URL, BLOCK_NUMBER and USER_ADDRES
 npx hardhat node
 ```
 
-Get the Healt Factor.
+Open a new terminal and get the Healt Factor running the health_factor.js script.
 ```
 node scripts/health_factor.js
 ```
