@@ -1,6 +1,5 @@
 require('@nomiclabs/hardhat-waffle');
 require('dotenv').config();
-const ALCHEMY_URL = process.env.ALCHEMY_URL;
 
 // This is a sample Hardhat task. To learn how to create your own go to
 // https://hardhat.org/guides/create-task.html
@@ -22,8 +21,8 @@ module.exports = {
     networks: {
         hardhat: {
             forking: {
-                url: ALCHEMY_URL,
-                blockNumber: 13532886,
+                url: process.env.ALCHEMY_URL,
+                blockNumber: Number(process.env.BLOCK_NUMBER),
             },
         },
     },
